@@ -832,25 +832,29 @@ Tibetic
 Universal Phonetic Alphabit
 Universal Phonetic Language
 International Radiotelephony Spelling Alphabet
+
 There are several reasons I have learned so many different languages. My studies of religion, magic, history, and later linguistics exposed me to many different languages. I read
 translations of many texts, but sometimes I would learn enough of the language to be able to translate key passages myself. After school I have traveled extensively, worked for
-internationally based companies, and while in country I try to pick up what I can of the local language.
-While I am not fluent in all these languages, it does skew my approach to understanding Large Language Models.
+internationally based companies, and while in country I try to pick up what I can of the local language. While I am not fluent in all these languages, it does skew my approach to understanding Large Language Models.
+
 The list of programming languages is not so long.
+
 We need a new Turing test
+
 Current models have no capacity for any kind of consciousness, there I said it.
+
 But they can sometimes fool people and pass certain tests today. We need new ways to confirm sources, carbon or silicon, and methods for testing fidelity of models.
 On the topic of consciousness, what came first language or consciousness, or was it something else…
+
 “The Origin of Consciousness in the Breakdown of the Bicameral Mind is a 1976 book by the Princeton psychologist, psychohistorian[a] and consciousness theorist Julian Jaynes
 (1920-1997). The book addresses the problematic nature of consciousness – "the ability to introspect" – which in Jaynes’ view must be distinguished from sensory awareness and
 other processes of cognition. Jaynes presents his proposed solution: that consciousness is a learned behavior based more on language and culture than on biology; this solution, in
-turn, points to the origin of consciousness in ancient human history rather than in metaphysical or evolutionary processes; furthermore, archaeological and historical evidence indicates
-that prior to the learning of consciousness, human mentality was what Jaynes called "the bicameral mind" – a mentality based on verbal hallucination.”
+turn, points to the origin of consciousness in ancient human history rather than in metaphysical or evolutionary processes; furthermore, archaeological and historical evidence indicates that prior to the learning of consciousness, human mentality was what Jaynes called "the bicameral mind" – a mentality based on verbal hallucination.”
+
 Darwin focused on a wide range of species in his work. He focused on external changes, not on how any species learned, or not. Basic communication is evident in many species, but
-communication at the basic construct level of danger, flee, help, fly this way is not consciousness. I agree with Julian that one of the key indicators of consciousness is the ability to
-introspect. It starts there and evolves. The evolution of consciousness was an interesting research project when I was a kid, it was a natural progression after my studies of religion and
-magic. Consciousness is not a singular state, it has evolved over time as we have grown as a species, well in some of us anyway.
-APA PsycNet
+communication at the basic construct level of danger, flee, help, fly this way is not consciousness. I agree with Julian that one of the key indicators of consciousness is the ability to introspect. It starts there and evolves. The evolution of consciousness was an interesting research project when I was a kid, it was a natural progression after my studies of religion and magic. Consciousness is not a singular state, it has evolved over time as we have grown as a species, well in some of us anyway.
+
+APA PsycNet https://psycnet.apa.org/record/1978-00023-000
 
 AI/ML chips or how ASICs will/are replacing CPUs and GPUs
 
