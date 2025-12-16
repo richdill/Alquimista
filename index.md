@@ -11,6 +11,8 @@ A simple way to describe me: the mind of a scientist, the heart of an explorer a
 
 Topics covered
 
+MCP vs A2A
+
 MCP aka Model Context Protocol
 
 Agentic Systems
@@ -33,10 +35,6 @@ AI/ML chips or how ASICs will/are replacing CPUs and GPUs
 
 Can you use quantum computers to train large language models? Not yet…
 
-Note this is a page of resources I have found and am sharing.
-
-Comments and suggestions are always welcome.
-
 A simple way to describe Large Language Models, a.k.a., LLMs, “Statistical algebra”
 
 Here is an Amazon blog on putting AI into production
@@ -45,6 +43,8 @@ FMOps/LLMOps: Operationalize generative AI and differences with MLOps
 
 “In this post, we discuss how to operationalize generative AI applications using MLOps principles leading to foundation model operations (FMOps). Furthermore, we deep dive on the most common generative AI use case of text-to-text applications and LLM operations (LLMOps), a subset of FMOps.”
 FMOps/LLMOps: Operationalize generative AI and differences with MLOps | Amazon Web Services
+
+https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/
 
 MCP, Model Context Protocol
 
