@@ -757,9 +757,12 @@ models.
 What is GPT4?
 Good intro article What does GPT stand for? Understanding GPT-3.5, GPT-4, GPT-4o, and more
 Hallucinations, or just plain made up and wrong. But how do you know the difference?
+
 Unfortunately asking the LLM to show its work like a proof, or references like an author does not work today.
-Tech experts are starting to doubt that ChatGPT and A.I. 'hallucinations' will ever go away: 'This isn’t fixable'
-There are limits to what computers can do, now an in the foreseeable future
+
+Tech experts are starting to doubt that ChatGPT and A.I. 'hallucinations' will ever go away: 'This isn’t fixable'. 
+
+There are limits to what computers can do, now and in the foreseeable future.
 
 “This “decision problem” was defined as giving a (mathematical) statement to an algorithm and to have that algorithm return a decision about whether that statement was true or not.
 
@@ -820,6 +823,8 @@ Australian
 Canadian
 
 Middle English
+
+Occitan
 
 Anglo-Saxon
 
