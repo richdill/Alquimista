@@ -54,7 +54,7 @@ https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-genera
 
 MCP, Model Context Protocol
 
-Overview and Purpose of MCP
+Overview and Purpose of MCP (Claude deep research)
 
 The Model Context Protocol (MCP) is an open standard (originally open-sourced by Anthropic in late 2024) designed to connect AI language models to external data and tools (Introducing the Model Context Protocol \ Anthropic). In essence, MCP tackles the “information silo” problem: many advanced models remain isolated from real-time data or enterprise systems, requiring custom integrations for each new data source (Introducing the Model Context Protocol \ Anthropic). MCP provides a universal protocol that replaces thesefragmented, one-off connectors with a single standardized interface (Introducing the Model Context Protocol \ Anthropic). This makes it far easier for AI assistants to pull in relevant context (from documents, databases, APIs, etc.) and produce better, more relevant responses using that data (Introducing the Model Context Protocol \ Anthropic) (Introducing the Model Context Protocol \ Anthropic). By establishing common rules for how AI systems access information, MCP aims to serve as a kind of “USB-C port” for AI – a plug-and-play way to attach any data source or tool to any AI model (Introduction - Model Context Protocol). Major AI providers have quickly rallied around MCP: Anthropic created it, and soon after OpenAI’s CEO announced support across OpenAI’s products (e.g. ChatGPT and the Agents SDK) (OpenAI adopts rival Anthropic's standard for connecting AI models to data | TechCrunch) (OpenAI adopts rival Anthropic's standard for connecting AI models to data | TechCrunch), with Google’s DeepMind similarly pledging to integrate MCP into its Gemini models and developer tools (Google to embrace Anthropic’s standard for connecting AI models to data | TechCrunch). In short, MCP’s purpose is to standardize context injection and tool-use for AI, enabling interoperability between AI assistants and the “systems where data lives” across different vendors (Introducing the Model Context Protocol \ Anthropic) (OpenAI adopts rival Anthropic's standard for connecting AI models to data | TechCrunch).
 
@@ -230,69 +230,45 @@ AWS microsite on generative AI
 success stories and real-world use cases to deep-dives from our esteemed G/SI and BCAP partners—all aimed at empowering you to reshape your industry and drive innovation.
 Our partners have been instrumental in advancing Gen AI, and their thought leadership is on full display in these resources. Through their experiences, you can gain valuable
 perspectives to help you form your own Gen AI strategy and fuel your innovation roadmap.”
-Amazon Web Services (AWS) - Cloud Computing Services
+Amazon Web Services (AWS) - Cloud Computing Services https://pages.awscloud.com/GLOBAL-AWS-Generative-AI-Empowering-the-Future-Together-with-GSI_BCAP-Partners-2023.html?trk=b6adfde1-875b-45fe-99d5-778f2b06fe1f&sc_channel=em
+
 Training content
+
 Hugging face training
-Hugging face is an open source site used by everyone in the AI/ML space. This is an excellent intro into all the resources they have
-12 things I wish…
-ner.pdf
-25 Sep 2023, 01:51 PM
-Amazon Generative AI training
+
+Hugging face is an open source site used by everyone in the AI/ML space. This is an excellent intro into all the resources they have.
+
+https://medium.com/artificial-corner/12-things-i-wish-i-knew-before-starting-to-work-with-hugging-face-llm-fb726ff6b95
+
 This is a small intro catalog of training available from Amazon
-AWS Generativ…
-Kit.pdf
-25 Sep 2023, 01:54 PM
+
+https://aws.amazon.com/ai/generative-ai/
+
 Sagemaker training
 Start here: https://aws.amazon.com/sagemaker/getting-started/
-from Sagemaker training, Santa Cruz March 2023
-Day1-Pa
-rt1.pdf
-26 Apr 2023, 12:29 PM
-Day1-Pa
-rt2.pdf
-26 Apr 2023, 12:29 PM
-Day1-Pa
-rt3.pdf
-26 Apr 2023, 12:30 PM
-MLOps-Roadsh…
-26 Apr 2023, 12:30 PM
-nal.pdf
-Presidential Executive Order on AI October 30, 2023
-https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/?
-utm_source=link
-Blueprint-for-a…
-30 Oct 2023, 04:48 PM
-hts.pdf
-European Union AI Act
-The EU AI Act is near. US AI regulation is coming. Here’s what you need to know | The AI Beat
-The EU just passed the AI Act, it has global implications
-“The EU AI Act just passed the European Parliament. You might think, “I’m not in
-the EU, whatever,” but trust me, this is actually more important to data scientists
-and individuals around the world than you might think. The EU AI Act is a major
-move to regulate and manage the use of certain machine learning models in the
-EU or that affect EU citizens, and it contains some strict rules and serious
-penalties for violation.”
-Uncovering the…
-ce..pdf
-28 Mar 2024, 04:49 PM
+
 Agentic Systems
+
 First what is an agent, how are they different from non LLM Agents? Then, what is an agent? Agents have subtle different meanings between Anthropic Claude, Google AI Agent
 Framework and OpenAI ChapGPT. Then we talk about Agentic Systems.
+
 Introduction to LLM Agents
-Introduction to LLM Agents | NVIDIA Technical Blog
+
+Introduction to LLM Agents | NVIDIA Technical Blog: https://developer.nvidia.com/blog/introduction-to-llm-agents/
+
 LLM-powered agents differ from traditional AI agents in several key ways:
-1. Reasoning and Decision-Making: LLM-powered agents, such as those using models like Claude, have advanced reasoning capabilities. They can interpret natural language
-inputs, plan tasks, and execute them autonomously, leveraging the LLM as their "brain" for complex decision-making and problem-solving[2][3].
-2. Dynamic Interactions: Unlike traditional AI agents that often rely on predefined rules and databases, LLM-powered agents provide more organic and context-sensitive interactions.
-They are trained on extensive datasets, enabling them to generate dynamic responses and manage a wide array of inputs without needing constant updates[2].
+
+1. Reasoning and Decision-Making: LLM-powered agents, such as those using models like Claude, have advanced reasoning capabilities. They can interpret natural language inputs, plan tasks, and execute them autonomously, leveraging the LLM as their "brain" for complex decision-making and problem-solving.
+2. Dynamic Interactions: Unlike traditional AI agents that often rely on predefined rules and databases, LLM-powered agents provide more organic and context-sensitive interactions. They are trained on extensive datasets, enabling them to generate dynamic responses and manage a wide array of inputs without needing constant updates.
 3. Autonomy: LLM-powered agents can independently execute tasks once they understand the goal, using tools and APIs to interact with their environment. This autonomy allows
-them to combine commands, engage with external tools, and adapt to new information without human intervention[2][4].
+them to combine commands, engage with external tools, and adapt to new information without human intervention.
 4. Memory and Learning: These agents incorporate memory modules that allow them to retain past interactions for context, enhancing their ability to provide consistent and
-personalized responses. They can store both short-term and long-term memories, which aids in continuous learning and adapting to user expectations[2][3].
+personalized responses. They can store both short-term and long-term memories, which aids in continuous learning and adapting to user expectations.
 5. Tool Integration: LLM-powered agents can utilize external tools to perform specific tasks, such as accessing updated data or performing calculations. This capability allows them to
-overcome some of the limitations of traditional LLMs, which are bound by their training data[5].
+overcome some of the limitations of traditional LLMs, which are bound by their training data.
 6. Complex Task Execution: They are capable of breaking down complex tasks into smaller subtasks and revising plans based on observations from each action step. This iterative
-process improves their ability to solve complex problems compared to traditional AI agents[5].
+process improves their ability to solve complex problems compared to traditional AI agents.
+
 Overall, LLM-powered agents represent a significant advancement over traditional AI agents by combining sophisticated reasoning, autonomy, and adaptability with the ability to
 interact dynamically with their environment and external tools.
 Citations:
