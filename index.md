@@ -699,7 +699,9 @@ There are limits to what computers can do, now and in the foreseeable future.
 
 This was a big deal at the time; mathematicians would have loved to prove things automatically. 
 
-And then along came Alonzo Church and Alan Turing and proved that solving the Entscheidungs problem is impossible.”
+And then along came Alonzo Church and Alan Turing and proved that solving the Entscheidungs problem is impossible.”  
+
+https://yzena.com/2024/03/what-computers-cannot-do-the-consequences-of-turing-completeness/?utm_source=tldrnewsletter
 
 The Octopus Test for Large Language Model AIs https://kottke.org/23/03/the-octopus-test-for-large-language-model-ais
 
