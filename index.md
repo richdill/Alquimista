@@ -15,6 +15,8 @@ Topics covered
 
 Moving from CloudOps to MLOps
 
+European Union AI Act
+
 MCP vs A2A
 
 MCP aka Model Context Protocol
@@ -51,6 +53,12 @@ FMOps/LLMOps: Operationalize generative AI and differences with MLOps
 FMOps/LLMOps: Operationalize generative AI and differences with MLOps | Amazon Web Services
 
 https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/
+
+European Union AI Act
+
+The EU just passed the AI Act, it has global implications “The EU AI Act just passed the European Parliament. You might think, “I’m not in the EU, whatever,” but trust me, this is actually more important to data scientists and individuals around the world than you might think. The EU AI Act is a major move to regulate and manage the use of certain machine learning models in the EU or that affect EU citizens, and it contains some strict rules and serious penalties for violation.”
+
+https://venturebeat.com/ai/the-eu-ai-act-is-near-us-ai-regulation-is-coming-heres-what-you-need-to-know-the-ai-beat/
 
 MCP, Model Context Protocol
 
@@ -256,7 +264,7 @@ Introduction to LLM Agents
 
 Introduction to LLM Agents | NVIDIA Technical Blog: https://developer.nvidia.com/blog/introduction-to-llm-agents/
 
-LLM-powered agents differ from traditional AI agents in several key ways:
+LLM-powered agents differ from traditional AI agents in several key ways: (Claude deep research summer 2025)
 
 1. Reasoning and Decision-Making: LLM-powered agents, such as those using models like Claude, have advanced reasoning capabilities. They can interpret natural language inputs, plan tasks, and execute them autonomously, leveraging the LLM as their "brain" for complex decision-making and problem-solving.
 2. Dynamic Interactions: Unlike traditional AI agents that often rely on predefined rules and databases, LLM-powered agents provide more organic and context-sensitive interactions. They are trained on extensive datasets, enabling them to generate dynamic responses and manage a wide array of inputs without needing constant updates.
@@ -269,19 +277,25 @@ overcome some of the limitations of traditional LLMs, which are bound by their t
 6. Complex Task Execution: They are capable of breaking down complex tasks into smaller subtasks and revising plans based on observations from each action step. This iterative
 process improves their ability to solve complex problems compared to traditional AI agents.
 
-Overall, LLM-powered agents represent a significant advancement over traditional AI agents by combining sophisticated reasoning, autonomy, and adaptability with the ability to
-interact dynamically with their environment and external tools.
-Citations:
-[1] [2] [3] [4] [5] [6] [7] LLM Powered Autonomous Agents: An exploration of the current landscape of the latest in Automomous AI Agents - blogpost by OpenAI Fmr. Chief Researcher and Current Hea
-d of AI Saftey Lilian Weng [D]
-From ChatGPT to AI autonomous agents: the real power of LLMs.
-Introduction to LLM Agents | NVIDIA Technical Blog
-What Are AI Agents? | IBM
-Building a Better AI Agent with Claude - Loka
-Chatbot Intent with Anthropic and Amazon Bedrock: Getting Started
-LLM vs Traditional Model building vs Model training and fine tuning. TLDR Traditional AI is getting reduced into obsolescence - Why can't we have both?
-[8] [deleted by user]
+Overall, LLM-powered agents represent a significant advancement over traditional AI agents by combining sophisticated reasoning, autonomy, and adaptability with the ability to interact dynamically with their environment and external tools.
+
+LLM Powered Autonomous Agents: An exploration of the current landscape of the latest in Automomous AI Agents - blogpost by OpenAI Fmr. Chief Researcher and Current Head of AI Saftey Lilian Weng
+https://www.reddit.com/r/MachineLearning/comments/14l17rp/llm_powered_autonomous_agents_an_exploration_of/
+
+From ChatGPT to AI autonomous agents: the real power of LLMs: https://blog.getdot.ai/from-chatgpt-to-ai-autonomous-agents-the-real-power-of-llms-54e87760911?gi=d2af138b5dfe
+
+Introduction to LLM Agents | NVIDIA Technical Blog https://developer.nvidia.com/blog/introduction-to-llm-agents/
+
+What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
+
+Building a Better AI Agent with Claude - Loka: https://www.loka.com/blog/building-a-better-ai-agent-with-claude
+
+Chatbot Intent with Anthropic and Amazon Bedrock: Getting Started: https://caylent.com/blog/chatbot-intents-using-anthropic-claude-and-aws-bedrock-to-unlock-better-interactions-for-customers
+
+LLM vs Traditional Model building vs Model training and fine tuning. TLDR Traditional AI is getting reduced into obsolescence - Why can't we have both?: https://www.reddit.com/r/ArtificialInteligence/comments/17cpk0i/llm_vs_traditional_model_building_vs_model/
+
 What is an agent? The Anthropic version
+
 1. An AI agent powered by an LLM like Claude is a system that can:
 Use the LLM to reason through problems
 Create plans to solve those problems
@@ -300,73 +314,69 @@ Consistently represent a brand's tone and values
 5. An important distinction is that an agent doesn't just output text, but can take actions. This ability to execute tasks (like searching a database or calling an API) is what distinguishes
 an agent from a simple text generation model.
 6. Agents can be used individually or as part of a "swarm" - multiple agents working together in a decentralized ecosystem to solve problems collaboratively.
+
 So in essence, when referring to Claude as an "agent", it means leveraging the LLM's capabilities not just for text generation, but for more complex reasoning, planning, and task
 execution within a defined system or application.
+
 Citations:
-[1] Introduction to LLM Agents | NVIDIA Technical Blog
-[2] Building a Better AI Agent with Claude - Loka
-[3] [deleted by user]
-[4] Agent calling with followup criteria Anthropic -> Agents · langchain-ai langchain · Discussion #21896
-[5] Customer support agent - Anthropic
-[6] Chatbot Intent with Anthropic and Amazon Bedrock: Getting Started
-[7] Introducing Claude
-[8] What Anthropic’s Sleeper Agents study means for LLM apps
+Introduction to LLM Agents | NVIDIA Technical Blog: https://developer.nvidia.com/blog/introduction-to-llm-agents/
+Building a Better AI Agent with Claude - Loka: https://www.loka.com/blog/building-a-better-ai-agent-with-claude
+Agent calling with followup criteria Anthropic -> Agents · langchain-ai langchain · Discussion #21896: https://github.com/langchain-ai/langchain/discussions/21896
+Customer support agent - Anthropic: https://docs.anthropic.com/en/docs/about-claude/use-case-guides/customer-support-chat
+Chatbot Intent with Anthropic and Amazon Bedrock: Getting Started: https://caylent.com/blog/chatbot-intents-using-anthropic-claude-and-aws-bedrock-to-unlock-better-interactions-for-customers
+Introducing Claude: https://www.anthropic.com/news/introducing-claude
+What Anthropic’s Sleeper Agents study means for LLM apps: https://bdtechtalks.com/2024/01/17/anthropic-llm-backdoor/
+
 What is an agent? The OpenAI version
+
 OpenAI
+
 Based on the search results provided, here's what "agent" means in the context of OpenAI's LLM:
-1. Cognitive Architecture: OpenAI uses the term "agent" to describe a specific cognitive architecture for their language models. This architecture allows the LLM to define its own
-transition options and actions.
-2. Autonomous Task Performance: An AI agent refers to a system or program capable of autonomously performing tasks on behalf of a user or another system. In OpenAI's context,
-this means the LLM can design its own workflow and utilize available tools to complete tasks.
-3. Decision-Making Loop: The agent architecture involves a loop where, given user input, the LLM is called and results in either a response to the user or action(s) to be taken. If an
-action is required, it's performed, an observation is made, and the loop continues until a final response is given.
-4. Tool Usage: OpenAI's agents can call and use various tools (like retrieval or code interpreter) to accomplish tasks. In the case of GPTs, this is done automatically, while for the
-Assistants API, it may require client-side tool calls.
+1. Cognitive Architecture: OpenAI uses the term "agent" to describe a specific cognitive architecture for their language models. This architecture allows the LLM to define its own transition options and actions.
+2. Autonomous Task Performance: An AI agent refers to a system or program capable of autonomously performing tasks on behalf of a user or another system. In OpenAI's context, this means the LLM can design its own workflow and utilize available tools to complete tasks.
+3. Decision-Making Loop: The agent architecture involves a loop where, given user input, the LLM is called and results in either a response to the user or action(s) to be taken. If an action is required, it's performed, an observation is made, and the loop continues until a final response is given.
+4. Tool Usage: OpenAI's agents can call and use various tools (like retrieval or code interpreter) to accomplish tasks. In the case of GPTs, this is done automatically, while for the Assistants API, it may require client-side tool calls.
 5. Context Management: The agent can pull context as needed, deciding what information it requires to complete a task and then requesting that information.
-6. Bet on Future Reliability: OpenAI is betting that this agent architecture, while currently not reliable enough for serious applications, will improve over time and become more
-dependable for complex tasks.
-It's important to note that OpenAI's use of "agent" differs from some other implementations in the field, which may use more structured approaches like complex chains or state
-machines. OpenAI's agent architecture aims for more flexibility and autonomy in task completion.
+6. Bet on Future Reliability: OpenAI is betting that this agent architecture, while currently not reliable enough for serious applications, will improve over time and become more dependable for complex tasks.
+It's important to note that OpenAI's use of "agent" differs from some other implementations in the field, which may use more structured approaches like complex chains or state machines. OpenAI's agent architecture aims for more flexibility and autonomy in task completion.
 Citations:
-[1] OpenAI's Bet on a Cognitive Architecture
-[2] What Are AI Agents? | IBM
-[3] What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]
-[4] https://towardsdatascience.com/llm-agents-intuitively-and-exhaustively-explained-8905858e18e2?gi=500d350b2f0a
-[5] LLM Powered Autonomous Agents
-[6] What are LLM Agents?
-[7] Agent Swarm - What actually is the point?
+OpenAI's Bet on a Cognitive Architecture: https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/
+What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
+What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
+https://towardsdatascience.com/llm-agents-intuitively-and-exhaustively-explained-8905858e18e2?gi=500d350b2f0a
+LLM Powered Autonomous Agents: https://lilianweng.github.io/posts/2023-06-23-agent/
+What are LLM Agents?: https://www.truefoundry.com/blog/llm-agents
+Agent Swarm - What actually is the point?: https://community.openai.com/t/agent-swarm-what-actually-is-the-point/578347
+
 Here are the key ways agents in LLMs differ from traditional AI agents:
-1. Cognitive Architecture: OpenAI's LLM agents use a more flexible cognitive architecture that allows them to define their own transition options and actions, rather than relying on
-predetermined algorithms or rule sets like traditional agents.
-2. Natural Language Capabilities: LLM-based agents have much stronger natural language understanding and generation abilities compared to traditional agents, allowing them to
-interact more naturally with users.
-3. Knowledge and Reasoning: OpenAI's agents leverage the broad knowledge and reasoning capabilities of large language models, giving them stronger generalization abilities and
-allowing them to handle a wider range of tasks without task-specific training.
-4. Tool Usage: LLM agents can dynamically decide to use various external tools (like web searches, APIs, code interpreters) to accomplish tasks, rather than being limited to built-in
-capabilities.
-5. Adaptability: These agents can more easily adapt to new situations and tasks without requiring extensive reprogramming, unlike many traditional AI agents that are designed for
-specific problem domains.
-6. Planning and Decision-Making: LLM agents can engage in more sophisticated planning and decision-making, breaking down complex goals into subtasks and adjusting their
-approach based on new information.
+
+1. Cognitive Architecture: OpenAI's LLM agents use a more flexible cognitive architecture that allows them to define their own transition options and actions, rather than relying on predetermined algorithms or rule sets like traditional agents.
+2. Natural Language Capabilities: LLM-based agents have much stronger natural language understanding and generation abilities compared to traditional agents, allowing them to interact more naturally with users.
+3. Knowledge and Reasoning: OpenAI's agents leverage the broad knowledge and reasoning capabilities of large language models, giving them stronger generalization abilities and allowing them to handle a wider range of tasks without task-specific training.
+4. Tool Usage: LLM agents can dynamically decide to use various external tools (like web searches, APIs, code interpreters) to accomplish tasks, rather than being limited to built-in capabilities.
+5. Adaptability: These agents can more easily adapt to new situations and tasks without requiring extensive reprogramming, unlike many traditional AI agents that are designed for specific problem domains.
+6. Planning and Decision-Making: LLM agents can engage in more sophisticated planning and decision-making, breaking down complex goals into subtasks and adjusting their approach based on new information.
 7. Memory Management: OpenAI's agents have more advanced memory systems, allowing them to maintain context over longer conversations and tasks.
 8. Autonomous Workflow Design: These agents can design their own workflows to accomplish tasks, rather than following rigid, pre-defined processes.
 9. Emergent Abilities: LLM-based agents can exhibit emergent abilities not explicitly programmed, allowing them to potentially solve problems in novel ways.
 10. Continuous Learning: While not fully implemented yet, OpenAI is betting on these agents becoming more reliable over time through continuous learning and improvement.
+
 In essence, OpenAI's LLM-based agents represent a shift towards more flexible, knowledge-driven, and adaptable AI systems compared to traditional, narrowly-focused AI agents.
 However, it's worth noting that this approach is still evolving and may have limitations in terms of reliability for critical applications at present.
 Citations:
-[1] An In-depth Survey of Large Language Model-based Artificial Intelligence Agents
-[2] What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]
-[3] Unveiling the Key Differences between LLM and Generative AI
-[4] What Are AI Agents? | IBM
-[5] [D] AI Agents: too early, too expensive, too unreliable
-[6] OpenAI's Bet on a Cognitive Architecture
-[7] LLM Powered Autonomous Agents
-[8] How LLMs Deployed as AI Agents are Going to Transform Knowledge Work | Inscribe
+An In-depth Survey of Large Language Model-based Artificial Intelligence Agents: https://arxiv.org/html/2309.14365
+What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
+Unveiling the Key Differences between LLM and Generative AI: https://convin.ai/blog/llm-vs-generative-ai-differences
+What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
+AI Agents: too early, too expensive, too unreliable: https://www.reddit.com/r/MachineLearning/comments/1cy1kn9/d_ai_agents_too_early_too_expensive_too_unreliable/
+OpenAI's Bet on a Cognitive Architecture: https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/
+LLM Powered Autonomous Agents: https://lilianweng.github.io/posts/2023-06-23-agent/
+How LLMs Deployed as AI Agents are Going to Transform Knowledge Work | Inscribe: https://www.inscribe.ai/blog/how-llms-deployed-as-ai-agents-are-going-to-transform-knowledge-work
+
 Here are the key ways agents in LLMs differ from traditional AI agents:
+
 Based on the search results, Google has recently launched some products and initiatives related to AI agents and agentic systems:
-1. Vertex AI Agent Builder: This is a new no-code offering from Google Cloud that allows partners and customers to build and deploy generative AI agents. It was announced at Google
-Cloud Next 2024 and is part of Google's Vertex AI platform.
+1. Vertex AI Agent Builder: This is a new no-code offering from Google Cloud that allows partners and customers to build and deploy generative AI agents. It was announced at GoogleCloud Next 2024 and is part of Google's Vertex AI platform.
 2. AI Agent Framework: Google launched its own AI Agent Framework under the Vertex AI brand. This framework aims to support the development of different types of AI agents.
 3. Types of AI Agents: Google outlined 6 types of AI agents they are building:
 Customer Agents
@@ -375,25 +385,25 @@ Creative Agents
 Data Agents
 Code Agents
 Security Agents
-4. Agent Assist: This is part of Google Cloud's Contact Center AI, which helps deliver AI-powered conversations with human agents. It can recommend responses, provide answers
-from a knowledge base, and transcribe calls in real-time.
+4. Agent Assist: This is part of Google Cloud's Contact Center AI, which helps deliver AI-powered conversations with human agents. It can recommend responses, provide answersfrom a knowledge base, and transcribe calls in real-time.
 5. Multi-agent collaboration: Google is exploring multi-agent approaches where complex tasks are broken down into subtasks executed by different specialized agents.
+6. 
 While these products show Google is investing in agentic AI systems, it's worth noting that some experts, like Paul Roetzer, suggest that fully autonomous AI agents are still a future
 development, likely to become more prominent between 2025-2027. Currently, Google's offerings seem to focus more on assisting human work rather than fully autonomous agents,
 but they are clearly moving in the direction of more advanced agentic systems.
+
 Citations:
-[1] [2] [4]
-Google & Andrew Ng on Agentic AI
-Google Goes All-In on AI Agents at Google Cloud Next
-[3] Agent Assist
-Google Releases AI AGENT BUILDER! 🤖 Worth The Wait?
-Google Releases AI AGENT BUILDER! 🤖 Worth The Wait?
-Google Releases AI AGENT BUILDER! 🤖 Worth The Wait?
-[5] [6] [8] Google Unleashes ‘New Era Of Productivity’ With AI Agents: Partners
-The Rise of Agentic Systems: From Bots To Agents
-[7] Vertex AI Agent Builder
-The promise of agentic AI in healthcare – early discoveries with Google’s Vertex AI
+Google & Andrew Ng on Agentic AI: https://www.agentico.ai/post/google-andrew-ng-on-agentic-ai
+Google Goes All-In on AI Agents at Google Cloud Next: https://www.marketingaiinstitute.com/blog/google-cloud-next-ai-agents
+Agent Assist: v
+Google Releases AI AGENT BUILDER! 🤖 Worth The Wait? https://www.youtube.com/watch?v=_AOA6M9Ta2I
+Google Unleashes ‘New Era Of Productivity’ With AI Agents: Partners: https://www.crn.com/news/cloud/google-unleashes-a-new-era-of-productivity-with-ai-agents-partners
+The Rise of Agentic Systems: From Bots To Agents: https://www.salesforce.com/news/stories/rise-of-agentic-systems/
+Vertex AI Agent Builder: https://cloud.google.com/products/agent-builder
+The promise of agentic AI in healthcare – early discoveries with Google’s Vertex AI: https://www.linkedin.com/pulse/promise-agentic-ai-healthcare-early-discoveries-vertex-marinucci-nwotc
+
 What is an Agentic System?
+
 From Perplexity
 “Agentic AI is being adopted across various industries to enhance efficiency, decision-making, and automation. Here are some examples of industries currently leveraging agentic AI:
 ## Information Technology (IT)
@@ -429,27 +439,26 @@ Simulating player behavior and identifying potential issues[4]
 Across various industries, agentic AI is being implemented to:
 Automate complex workflows
 Enhance decision-making processes
-Improve overall operational efficiency[2]
+Improve overall operational efficiency
 As agentic AI continues to evolve, its applications are expanding across more industries, offering the potential to revolutionize how businesses operate and make decisions. The
 technology's ability to autonomously handle complex tasks and adapt to changing circumstances makes it a valuable asset in many sectors.”
+
 Citations:
-[1] https://www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
-[2] How agentic AI is driving the next evolution of enterprise AI
-[3] https://zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
-[4] Unlocking the Potential of Agentic AI: Applications Across Different Industries
-[5] https://markovate.com/blog/agentic-ai-architecture/
-[6] What is Agentic AI?
-[7] [8] Agentic AI: 8 Use Cases and Real life Examples in 2025
-AI agents will transform business processes — and magnify risks
-An excellent introduction to Agentic systems:
-What are AI Agents?
-What are AI Agents?
-What are AI Agents?
+https://www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
+How agentic AI is driving the next evolution of enterprise AI: https://www.moveworks.com/us/en/resources/blog/agentic-ai-the-next-evolution-of-enterprise-ai
+https://zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
+Unlocking the Potential of Agentic AI: Applications Across Different Industries: https://www.pixiebrix.com/blog/unlocking-the-potential-of-agentic-ai-applications-across-different-industries/
+https://markovate.com/blog/agentic-ai-architecture/
+What is Agentic AI?: https://www.moveworks.com/us/en/resources/ai-terms-glossary/agentic-ai
+Agentic AI: 8 Use Cases and Real life Examples in 2025: https://research.aimultiple.com/agentic-ai/
+AI agents will transform business processes — and magnify risks: https://www.cio.com/article/3489045/ai-agents-will-transform-business-processes-and-magnify-risks.html
+An excellent introduction to Agentic systems: https://www.youtube.com/watch?v=F8NKVhkZZWI
 Here is a link to the webinar MongoDB did in August 2024. It compares RAG to Agentic Systems.
-Expanding LLM Applications: From RAG To Agentic Systems
+Expanding LLM Applications: From RAG To Agentic Systems: https://www.mongodb.com/presentations/expanding-llm-applications-from-rag-to-agentic-systems
+
 Research papers
-These are research papers, not to be confused with position or white papers. They reference some of the key design and architectural components of building machine learning models
-of various types. I have not limited these research papers to just large language models. Other models are covered.
+
+These are research papers, not to be confused with position or white papers. They reference some of the key design and architectural components of building machine learning models of various types. I have not limited these research papers to just large language models. Other models are covered.
 Here is the first paper on using math to model biological neural activity. It was published in 1943
 A logical calculus of the ideas immanent in nervous activity.pdf
 “Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of
