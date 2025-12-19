@@ -322,11 +322,17 @@ execution within a defined system or application.
 Citations:
 
 Introduction to LLM Agents | NVIDIA Technical Blog: https://developer.nvidia.com/blog/introduction-to-llm-agents/
+
 Building a Better AI Agent with Claude - Loka: https://www.loka.com/blog/building-a-better-ai-agent-with-claude
+
 Agent calling with followup criteria Anthropic -> Agents · langchain-ai langchain · Discussion #21896: https://github.com/langchain-ai/langchain/discussions/21896
+
 Customer support agent - Anthropic: https://docs.anthropic.com/en/docs/about-claude/use-case-guides/customer-support-chat
+
 Chatbot Intent with Anthropic and Amazon Bedrock: Getting Started: https://caylent.com/blog/chatbot-intents-using-anthropic-claude-and-aws-bedrock-to-unlock-better-interactions-for-customers
+
 Introducing Claude: https://www.anthropic.com/news/introducing-claude
+
 What Anthropic’s Sleeper Agents study means for LLM apps: https://bdtechtalks.com/2024/01/17/anthropic-llm-backdoor/
 
 What is an agent? The OpenAI version
@@ -345,11 +351,17 @@ It's important to note that OpenAI's use of "agent" differs from some other impl
 Citations:
 
 OpenAI's Bet on a Cognitive Architecture: https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/
+
 What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
+
 What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
+
 https://towardsdatascience.com/llm-agents-intuitively-and-exhaustively-explained-8905858e18e2?gi=500d350b2f0a
+
 LLM Powered Autonomous Agents: https://lilianweng.github.io/posts/2023-06-23-agent/
+
 What are LLM Agents?: https://www.truefoundry.com/blog/llm-agents
+
 Agent Swarm - What actually is the point?: https://community.openai.com/t/agent-swarm-what-actually-is-the-point/578347
 
 Here are the key ways agents in LLMs differ from traditional AI agents:
@@ -371,17 +383,25 @@ However, it's worth noting that this approach is still evolving and may have lim
 Citations:
 
 An In-depth Survey of Large Language Model-based Artificial Intelligence Agents: https://arxiv.org/html/2309.14365
+
 What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
+
 Unveiling the Key Differences between LLM and Generative AI: https://convin.ai/blog/llm-vs-generative-ai-differences
+
 What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
+
 AI Agents: too early, too expensive, too unreliable: https://www.reddit.com/r/MachineLearning/comments/1cy1kn9/d_ai_agents_too_early_too_expensive_too_unreliable/
+
 OpenAI's Bet on a Cognitive Architecture: https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/
+
 LLM Powered Autonomous Agents: https://lilianweng.github.io/posts/2023-06-23-agent/
+
 How LLMs Deployed as AI Agents are Going to Transform Knowledge Work | Inscribe: https://www.inscribe.ai/blog/how-llms-deployed-as-ai-agents-are-going-to-transform-knowledge-work
 
 Here are the key ways agents in LLMs differ from traditional AI agents:
 
 Based on the search results, Google has recently launched some products and initiatives related to AI agents and agentic systems:
+
 1. Vertex AI Agent Builder: This is a new no-code offering from Google Cloud that allows partners and customers to build and deploy generative AI agents. It was announced at GoogleCloud Next 2024 and is part of Google's Vertex AI platform.
 2. AI Agent Framework: Google launched its own AI Agent Framework under the Vertex AI brand. This framework aims to support the development of different types of AI agents.
 3. Types of AI Agents: Google outlined 6 types of AI agents they are building:
@@ -401,12 +421,17 @@ but they are clearly moving in the direction of more advanced agentic systems.
 Citations:
 
 Google & Andrew Ng on Agentic AI: https://www.agentico.ai/post/google-andrew-ng-on-agentic-ai
+
 Google Goes All-In on AI Agents at Google Cloud Next: https://www.marketingaiinstitute.com/blog/google-cloud-next-ai-agents
-Agent Assist: v
+
 Google Releases AI AGENT BUILDER! 🤖 Worth The Wait? https://www.youtube.com/watch?v=_AOA6M9Ta2I
+
 Google Unleashes ‘New Era Of Productivity’ With AI Agents: Partners: https://www.crn.com/news/cloud/google-unleashes-a-new-era-of-productivity-with-ai-agents-partners
+
 The Rise of Agentic Systems: From Bots To Agents: https://www.salesforce.com/news/stories/rise-of-agentic-systems/
+
 Vertex AI Agent Builder: https://cloud.google.com/products/agent-builder
+
 The promise of agentic AI in healthcare – early discoveries with Google’s Vertex AI: https://www.linkedin.com/pulse/promise-agentic-ai-healthcare-early-discoveries-vertex-marinucci-nwotc
 
 What is an Agentic System?
@@ -453,15 +478,25 @@ technology's ability to autonomously handle complex tasks and adapt to changing 
 Citations:
 
 https://www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
+
 How agentic AI is driving the next evolution of enterprise AI: https://www.moveworks.com/us/en/resources/blog/agentic-ai-the-next-evolution-of-enterprise-ai
+
 https://zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
+
 Unlocking the Potential of Agentic AI: Applications Across Different Industries: https://www.pixiebrix.com/blog/unlocking-the-potential-of-agentic-ai-applications-across-different-industries/
+
 https://markovate.com/blog/agentic-ai-architecture/
+
 What is Agentic AI?: https://www.moveworks.com/us/en/resources/ai-terms-glossary/agentic-ai
+
 Agentic AI: 8 Use Cases and Real life Examples in 2025: https://research.aimultiple.com/agentic-ai/
+
 AI agents will transform business processes — and magnify risks: https://www.cio.com/article/3489045/ai-agents-will-transform-business-processes-and-magnify-risks.html
+
 An excellent introduction to Agentic systems: https://www.youtube.com/watch?v=F8NKVhkZZWI
+
 Here is a link to the webinar MongoDB did in August 2024. It compares RAG to Agentic Systems.
+
 Expanding LLM Applications: From RAG To Agentic Systems: https://www.mongodb.com/presentations/expanding-llm-applications-from-rag-to-agentic-systems
 
 Research papers
