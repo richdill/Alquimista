@@ -601,7 +601,6 @@ consumer goods, as well as technical, domain-specific documents for industries s
 
 Amazon and Anthropic announce strategic collaboration to advance generative AI: https://www.aboutamazon.com/news/company-news/amazon-aws-anthropic-ai
 
-
 Unfortunately, this no longer true. Google announced Gemini support for 1M tokens
 
 Our next-generation model: Gemini 1.5 “https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
@@ -609,38 +608,54 @@ Our next-generation model: Gemini 1.5 “https://blog.google/technology/ai/googl
 “As we roll out the full 1 million token context window, we’re actively working on optimizations to improve latency, reduce computational requirements and enhance the user experience. We’re excited for people to try this breakthrough capability, and we share more details on future availability below.” It remains to be seen if they have the ability to use them to their advantage.
 
 Retrieval Augmented Generation for Knowledge Intensive NLP Tasks
+
 Regenerative Augmented Generation, a.k.a., RAG, is a new method to improve response fidelity.
+
 “We explore a general-purpose fine-tuning recipe for retrieval-augmented generation(RAG) — models which combine pre-trained parametric and non-parametric memory for language
 generation.”
-Retrieval-AugmentedGenerationfor Knowledge-IntensiveNLPTasks.pdf
-Tech Crunch press release: Anthropic releases Claude 2, its second-gen AI chatbot
+
+Retrieval-AugmentedGenerationfor Knowledge-IntensiveNLPTasks.pdf: https://arxiv.org/abs/2005.11401
+
+Tech Crunch press release: Anthropic releases Claude 2, its second-gen AI chatbot: https://techcrunch.com/2023/07/11/anthropic-releases-claude-2-the-second-generation-of-its-ai-chatbot/
+
 How Chunk Sizes Affect Semantic Retrieval Results
+
 “To better understand how chunk size affects semantic retrieval results, it’s important to know how chunks are mathematically represented and how user queries interact with these
 representations.
+
 In semantic retrieval systems, each chunk of text is typically converted into a dense vector representation using techniques like word embeddings or transformer-based models. These
 vector representations capture the semantic meaning of the text in a high-dimensional space.”
-How Chunk Siz…
-ish.pdf
-27 Mar 2024, 05:13 PM
+
+https://ai.plainenglish.io/investigating-chunk-size-on-semantic-results-b465867d8ca1
+
 SELF RAG, the next step for prompt enhancement
+
 “The SELF-RAG framework trains a single arbitrary language model to adaptivelyretrieve passages on-demand.To generate and reflect on retrieved passages and on own generations
 usingspecial tokens, called reflection tokens.Reflection TokensReflection tokens are categorised into retrieval and critique tokens to indicatethe need for retrieval and its generation
 quality respectively.4SELF-RAG uses reflection tokens to decide the need for retrieval and to selfevaluategeneration quality.Generating reflection tokens makes the LM controllable
 during the inferencephase, enabling it to tailor its behaviour to diverse task requirements.The study shows that SELF-RAG significantly outperforms LLMs and alsostandard RAG
 approaches.”
-Self-Reflective …
-ium.pdf
-27 Mar 2024, 05:21 PM
+
+https://arxiv.org/abs/2310.11511
+
 Using Vector databases with RAG
+
 RAG
+
 This is an excellent high level discussion around vector, relational and graph databases. The RDBMS vendors are already adding support for vectors to their offerings. Vector
 databases can be purpose built or support for vector clusters can be added to existing search engines or relational or graph databases.
-What Is A Vector Database? | IBM
+
+What Is A Vector Database? | IBM: https://www.ibm.com/topics/vector-database#:~:text=Unlike%20traditional%20relational%20databases%20with,ideal%20for%20AI%2Ddriven%20applications.
+
 Pinecone Vector database
-Pinecone: New vector database architecture a ‘breakthrough’ to curb AI hallucinations
+
+https://venturebeat.com/ai/pinecone-new-vector-database-architecture-a-breakthrough-to-curb-ai-hallucinations/?utm_source=VentureBeat&utm_campaign=41eb1ea501-EMAIL_CAMPAIGN_2024_01_17_07_03&utm_medium=email&utm_term=0_-41eb1ea501-%5BLIST_EMAIL_ID%5D&mc_cid=41eb1ea501&mc_eid=545abcaca8)
+
 Amazon elasticsearch
-Working with vector search collections - Amazon OpenSearch Service
+Working with vector search collections - Amazon OpenSearch Service: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html
+
 Foundations of Vector Retrieval
+\
 “This monograph is divided into four parts. The first part introduces the prob-
 lem of vector retrieval and formalizes the concepts involved. The second part
 delves into retrieval algorithms that help solve the vector retrieval problem
