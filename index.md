@@ -655,136 +655,157 @@ Amazon elasticsearch
 Working with vector search collections - Amazon OpenSearch Service: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html
 
 Foundations of Vector Retrieval
-\
-“This monograph is divided into four parts. The first part introduces the prob-
-lem of vector retrieval and formalizes the concepts involved. The second part
-delves into retrieval algorithms that help solve the vector retrieval problem
-efficiently and effectively. Part three is devoted to vector compression. Fi-
-nally, the fourth part presents a review of background material in a series of
+
+“This monograph is divided into four parts. The first part introduces the problem of vector retrieval and formalizes the concepts involved. The second part delves into retrieval algorithms that help solve the vector retrieval problem efficiently and effectively. Part three is devoted to vector compression. Fi- nally, the fourth part presents a review of background material in a series of
 appendices. “
-Foundations of …
-val.pdf31 Jan 2024, 04:36 PM
+
+https://arxiv.org/abs/2401.09350
+
 Gyaneshwer Kumar’s medium post on building a prompt
+
 This is an excellent walk through the process of building a prompt.
-Prompt Engine…
-2 .pdf
-02 Oct 2023, 07:58 PM
+
+https://www.linkedin.com/pulse/prompt-engineering-gyaneshwer-kumar
+
 AI Drift In Retrieval Augmented Generation — AND — How To Control It
+
 Model drift is a phenomenon in machine learning when the statistical properties (distribution) of data change over time. This shift can lead to reduced accuracy, degraded model
-performance, and unexpected outcomes.
-AI Drift In Retri…
-AI.pdf
-01 Feb 2024, 02:26 PM
+performance, and unexpected outcomes.\
+
+https://pub.towardsai.net/ai-drift-in-retrieval-augmented-generation-and-how-to-control-it-25119cd7ddfd
+
 Other papers of interest the various approaches to designing and building models
+
 Improving Language Understanding by Generative Pre-Training
+
 “In contrast to previous approaches, we make use of task-aware input transformations during fine-tuning to achieve effective transfer while requiring minimal changes to the model
 architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding.”
-language_unde…
-26 Apr 2023, 12:20 PM
-per.pdf
+
+https://www.semanticscholar.org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035
+
 Symbolic Discovery of Optimization Algorithms
+
 “We present OpenPre-trained Transformers (OPT), a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which we aim to fully and responsibly
 share with interested researchers. We show that OPT-175B is com-parable to GPT-3,1while requiring only 1/7th the carbon footprint to develop. “
-OPT- Open Pre-…
-26 Apr 2023, 12:21 PM
-els.pdf
+
+https://arxiv.org/abs/2302.06675
+
 Surrogate-assisted parallel tempering for Bayesian neural learning
+
 “we present surrogate-assisted parallel tempering for Bayesian neural learning for simple to computationally expensive models. Our results demonstrate that the methodology
 significantly lowers the computational cost while maintaining quality in decision making with Bayesian neural networks. The method has applications for a Bayesian inversion and
 uncertainty quantification for a broad range of numerical models.”
-surrogate-assis…
-ing.pdf
-26 Apr 2023, 12:21 PM
+
+https://arxiv.org/abs/1811.08687
+
 Bayes is an old friend from my search days. Here is an introduction to the various uses of Thomas' approach.
+
 https://medium.com/@shankyp1000/bayesian-statistics-explained-in-simple-terms-with-examples-5200a32d62f8#:~:text=Bayesian Statistics is about using,that you gather through
 experience.
+
 A General Back-propagation Algorithm for Feed forward Neural Networks Learning
+
 “A general FNN training algorithm has been proposed. Its convergence has been completely analyzed using the Lyapunov stability theory. It has been shown that the proposed
 algorithm covers major classes of commonly used BP learning algorithms. However, it should be emphasized that the strength of the general learning algorithm lies in its ability to
 handle time varying inputs. Sufficient conditions for the convergence of FNN weights have been given”
 This paper has more expressions per page than most, but scoring is an important metric when running experiments.
-A General Back… ing.pdf
-26 Apr 2023, 12:21 PM
+
+https://web.cs.hacettepe.edu.tr/~onderefe/PDF/JIEEETransNN.pdf
+
 Retrieval Augmentation Reduces Hallucination in Conversation
+
 “In this work we explore the use of neural retrieval in the loop architectures - recently shown to be effective in open-domain QA (Lewis et al., 2020b; Izacard and Grave,
 2020) - for knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating
 conversationally coherent responses. We study various types of architectures with multiple components – retrievers, rankers, and encoder-decoders – with the goal of maximizing
 knowledgeability while retaining conversational ability. “
-RetrievalAugm…
-ion.pdf
-08 Jun 2023, 03:21 PM
+
+https://aclanthology.org/2021.findings-emnlp.320.pdf
+
 Deep Learning in Neural Networks - An Overview
+
 “In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. This historical survey compactly
 summarises relevant work, much of it from the previous millennium. Shallow and deep learners are distinguished by the depth of their credit assignment paths, which are chains of
 possibly learnable, causal links between actions and effects. I review deep supervised learning (also recapitulating the history of back-propagation), unsupervised learning,
 reinforcement learning & evolutionary computation, and indirect search for short programs encoding deep and large networks”
-Deep Learning i…
-iew.pdf
-26 Apr 2023, 12:24 PM
+
+https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf
+
 Question Decomposition Improves the Faithfulness of Model Generated Reasoning
+
 “To improve over the faithfulness of CoT reasoning, we have models generate reasoning by decomposing questions into subquestions.Decomposition-based methods achieve strong
 performance on question-answering tasks, sometimes approaching that of CoT while improving the faithfulness of the model’s stated reasoning on several recently-proposed metrics.
 By forcing the model to answer simpler subquestions in separate contexts, we greatly increase the faithfulness of model generated reasoning over CoT, while still achieving some of the
 performance gains of CoT.”
 question-deco…
-ing.pdf
-04 Aug 2023, 10:01 PM
-Commercial white papers and articles
-These documents are not academic, but commercial, so they should be consumed with that in mind. These may be more user-friendly than the academic papers.
-One of Iris' models is a large neural network, so this does have some relevance to what we are doing
-An-Introduction…
-ity.pdf
-26 Apr 2023, 12:25 PM
-Achieving-Real…
-26 Apr 2023, 12:25 PM
-nce.pdf
-Good intro to Tensorflow
-Considering-Te…
-26 Apr 2023, 12:30 PM
-ise.pdf
-This is an excellent introduction to RAG and Hallucinations
-Retrieval-Augm…
-08 Jun 2023, 03:25 PM
-ium.pdf
+
+https://arxiv.org/abs/2307.11768
+
 Reference links
+
 AI/ML open source community site
-Hugging Face – The AI community building the future.
+Hugging Face – The AI community building the future: https://huggingface.co/
+
 This is an excellent introduction to how neural networks are designed and built
-Explained: Neural networks
+
+Explained: Neural networks: https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414
+
 Claude 2.0 release information
-Some Key Facts About Anthropic’s Claude 2 Release
+
+Some Key Facts About Anthropic’s Claude 2 Release: https://thesequence.substack.com/p/some-key-facts-about-anthropics-claude
+
 You need to know what LangChain is…
+
 LangChain is important to understand, because SnapChain is in development and it will offer new capabilities for our users.
+
 https://www.producthunt.com/stories/what-is-langchain-how-to-use
+
 Text to SQL
+
 As we start doing text to SQL the challenges are not small. This is one approach.
+
 “Spider is a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by 11 Yale students. The goal of the Spider challenge is to develop natural
 language interfaces to cross-domain databases. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables covering 138 different
 domains. In Spider 1.0, different complex SQL queries and databases appear in train and test sets. To do well on it, systems must generalize well to not only new SQL queries but also
 new database schemas.”
-Spider: Yale Semantic Parsing and Text-to-SQL Challenge
+
+Spider: Yale Semantic Parsing and Text-to-SQL Challenge: https://yale-lily.github.io/spider
+
 A Gentle Introduction to Code Generation Evaluation
+
 As with any deep learning model, the training procedure requires a metric to evaluate the performance. Currently, there is a hand full of ways to evaluate such models. However, it is
 not clear yet (I think) which is the best, which motivated me to write this post.
+
 This post overviews the metrics used for code generation models andcompares each using a real example to highlight their strengths and weaknesses.
+
 Generative Adversarial Networks
+
 Today they are single dimensional, I think in the future a matrix model where nodes are validating against more than one node will be how we build and validate large hybrid models,
 think of a hypercube.
-A Gentle Introduction to Generative Adversarial Networks (GANs) - MachineLearningMastery.com
+
+A Gentle Introduction to Generative Adversarial Networks (GANs) - MachineLearningMastery.com: https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+
 How smart is the model?
+
 In this tutorial, you will discover a gentle introduction to the k-fold cross-validation procedure for estimating the skill of machine learning models.
-A Gentle Introduction to k-fold Cross-Validation - MachineLearningMastery.com
+A Gentle Introduction to k-fold Cross-Validation - MachineLearningMastery.com: https://machinelearningmastery.com/k-fold-cross-validation/
+
 Interesting new approach
+: https://www.zdnet.com/article/this-new-technology-could-blow-away-gpt-4-and-everything-like-it/
+
 This new technology could blow away GPT-4 and everything like it
+
 I am not surprised, the compute costs for LLM is insanely expensive, I’m sure there are other mathematical approaches will appear to reduce the costs of training and running large
 models.
+
 What is GPT4?
-Good intro article What does GPT stand for? Understanding GPT-3.5, GPT-4, GPT-4o, and more
+
+Good intro article What does GPT stand for? Understanding GPT-3.5, GPT-4, GPT-4o, and more: https://www.zdnet.com/article/what-is-gpt-4-heres-everything-you-need-to-know/
+
 Hallucinations, or just plain made up and wrong. But how do you know the difference?
 
 Unfortunately asking the LLM to show its work like a proof, or references like an author does not work today.
 
-Tech experts are starting to doubt that ChatGPT and A.I. 'hallucinations' will ever go away: 'This isn’t fixable'. 
+Tech experts are starting to doubt that ChatGPT and A.I. 'hallucinations' will ever go away: 'This isn’t fixable'. : https://fortune.com/2023/08/01/can-ai-chatgpt-hallucinations-be-fixed-experts-doubt-altman-openai/
 
 There are limits to what computers can do, now and in the foreseeable future.
 
