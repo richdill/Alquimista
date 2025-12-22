@@ -5,7 +5,7 @@ This page represents almost 10 years of AI and machine learning research, experi
 
 A simple way to describe Large Language Models, a.k.a., LLMs, “Statistical algebra”. JS
 
-About me
+About me  
 
 A software professional with experience cutting broadly across multiple areas of specialization. A track record of success spanning multi-platform enterprise software and SaaS. Well known for turning customer advocacy (serving as the voice of the customer) into revenue-generating new features and products. History of success with industry leaders including IBM, Ascential and Sybase. Demonstrated ability to close strategic deals and generate revenue. Exceptional internal / client / industry writing, presentation, and training skills. Proven ability to drive cutting-edge products to market and projects to completion on schedule and under budget in fast-paced onshore and offshore environments.
 
