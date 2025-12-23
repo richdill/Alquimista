@@ -50,15 +50,15 @@ Here is an Amazon blog on putting AI into production
 FMOps/LLMOps Operationalize generative AI and differences with MLOps
 
 “In this post, we discuss how to operationalize generative AI applications using MLOps principles leading to foundation model operations (FMOps). Furthermore, we deep dive on the most common generative AI use case of text-to-text applications and LLM operations (LLMOps), a subset of FMOps.”
-FMOps/LLMOps: Operationalize generative AI and differences with MLOps | Amazon Web Services
+FMOps/LLMOps Operationalize generative AI and differences with MLOps | Amazon Web Services
 
-https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/
+"https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/"
 
 European Union AI Act
 
 The EU just passed the AI Act, it has global implications “The EU AI Act just passed the European Parliament. You might think, “I’m not in the EU, whatever,” but trust me, this is actually more important to data scientists and individuals around the world than you might think. The EU AI Act is a major move to regulate and manage the use of certain machine learning models in the EU or that affect EU citizens, and it contains some strict rules and serious penalties for violation.”
 
-https://venturebeat.com/ai/the-eu-ai-act-is-near-us-ai-regulation-is-coming-heres-what-you-need-to-know-the-ai-beat/
+"https://venturebeat.com/ai/the-eu-ai-act-is-near-us-ai-regulation-is-coming-heres-what-you-need-to-know-the-ai-beat/"
 
 MCP, Model Context Protocol
 
