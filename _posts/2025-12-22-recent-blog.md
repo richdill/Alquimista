@@ -1,7 +1,6 @@
 ---
-title: Welcome to my blog
-Welcome to my site
----
+title: Welcome to my site
+
 This page represents almost 10 years of AI and machine learning research, experience and observations, and a few opinions. I started this page about five years ago as an internal resource at Snaplogic to share my learning with others. This version has been sanitized for public consumption. It started off focusing on the transition from CloudOps to MLOps, but quickly expanded into a wide range of topics. It is organized into content sections, research papers, position and white papers, reference links, and reference architectures. I also include some future references and related topics. 
 
 A simple way to describe Large Language Models, a.k.a., LLMs, “Statistical algebra”. JS
