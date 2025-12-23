@@ -52,13 +52,13 @@ FMOps/LLMOps Operationalize generative AI and differences with MLOps
 “In this post, we discuss how to operationalize generative AI applications using MLOps principles leading to foundation model operations (FMOps). Furthermore, we deep dive on the most common generative AI use case of text-to-text applications and LLM operations (LLMOps), a subset of FMOps.”
 FMOps/LLMOps Operationalize generative AI and differences with MLOps | Amazon Web Services
 
-"https://aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/"
+"https //aws.amazon.com/blogs/machine-learning/fmops-llmops-operationalize-generative-ai-and-differences-with-mlops/"
 
 European Union AI Act
 
 The EU just passed the AI Act, it has global implications “The EU AI Act just passed the European Parliament. You might think, “I’m not in the EU, whatever,” but trust me, this is actually more important to data scientists and individuals around the world than you might think. The EU AI Act is a major move to regulate and manage the use of certain machine learning models in the EU or that affect EU citizens, and it contains some strict rules and serious penalties for violation.”
 
-"https://venturebeat.com/ai/the-eu-ai-act-is-near-us-ai-regulation-is-coming-heres-what-you-need-to-know-the-ai-beat/"
+"https //venturebeat.com/ai/the-eu-ai-act-is-near-us-ai-regulation-is-coming-heres-what-you-need-to-know-the-ai-beat/"
 
 MCP, Model Context Protocol
 
@@ -414,45 +414,45 @@ Continuous fraud monitoring and detection
 Real-time flagging of anomalous transactions
 Automated credit risk assessment[1][3]
 ## Healthcare
-The healthcare industry is leveraging agentic AI for:
+The healthcare industry is leveraging agentic AI for
 Analyzing patient symptoms and medical history
 Assisting in diagnostics and identifying potential health risks
 Suggesting preventative actions based on comprehensive data analysis[1]
 ## Gaming Industry
-Game developers are utilizing agentic AI for:
+Game developers are utilizing agentic AI for
 Testing games without human testers
 Simulating player behavior and identifying potential issues[4]
 ## Enterprise Operations
-Across various industries, agentic AI is being implemented to:
+Across various industries, agentic AI is being implemented to
 Automate complex workflows
 Enhance decision-making processes
 Improve overall operational efficiency
 As agentic AI continues to evolve, its applications are expanding across more industries, offering the potential to revolutionize how businesses operate and make decisions. The
 technology's ability to autonomously handle complex tasks and adapt to changing circumstances makes it a valuable asset in many sectors.”
 
-Citations:
+Citations
 
-https://www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
+https //www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
 
-How agentic AI is driving the next evolution of enterprise AI: https://www.moveworks.com/us/en/resources/blog/agentic-ai-the-next-evolution-of-enterprise-ai
+How agentic AI is driving the next evolution of enterprise AI https://www.moveworks.com/us/en/resources/blog/agentic-ai-the-next-evolution-of-enterprise-ai
 
-https://zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
+https //zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
 
-Unlocking the Potential of Agentic AI: Applications Across Different Industries: https://www.pixiebrix.com/blog/unlocking-the-potential-of-agentic-ai-applications-across-different-industries/
+Unlocking the Potential of Agentic AI Applications Across Different Industries: https://www.pixiebrix.com/blog/unlocking-the-potential-of-agentic-ai-applications-across-different-industries/
 
-https://markovate.com/blog/agentic-ai-architecture/
+https //markovate.com/blog/agentic-ai-architecture/
 
-What is Agentic AI?: https://www.moveworks.com/us/en/resources/ai-terms-glossary/agentic-ai
+What is Agentic AI? https //www.moveworks.com/us/en/resources/ai-terms-glossary/agentic-ai
 
-Agentic AI: 8 Use Cases and Real life Examples in 2025: https://research.aimultiple.com/agentic-ai/
+Agentic AI 8 Use Cases and Real life Examples in 2025: https://research.aimultiple.com/agentic-ai/
 
-AI agents will transform business processes — and magnify risks: https://www.cio.com/article/3489045/ai-agents-will-transform-business-processes-and-magnify-risks.html
+AI agents will transform business processes — and magnify risks https //www.cio.com/article/3489045/ai-agents-will-transform-business-processes-and-magnify-risks.html
 
-An excellent introduction to Agentic systems: https://www.youtube.com/watch?v=F8NKVhkZZWI
+An excellent introduction to Agentic systems https //www.youtube.com/watch?v=F8NKVhkZZWI
 
 Here is a link to the webinar MongoDB did in August 2024. It compares RAG to Agentic Systems.
 
-Expanding LLM Applications: From RAG To Agentic Systems: https://www.mongodb.com/presentations/expanding-llm-applications-from-rag-to-agentic-systems
+Expanding LLM Applications From RAG To Agentic Systems: https //www.mongodb.com/presentations/expanding-llm-applications-from-rag-to-agentic-systems
 
 Research papers
 
@@ -536,15 +536,15 @@ LLM-FP4-4-BitFers.pdf: https://arxiv.org/abs/2310.16836
 
 Hyena is a challenger to how we build LLMs
 
-This is why it is important: anything that can reduce the computational costs is going to be important to making LLMs a profitable product offering. “we propose Hyena, a sub-quadratic drop-in replacement for attention constructed by interleaving implicitly parametrized long convolutions and data-controlled gating. In recall and reasoning tasks on sequences of thousands to hundreds of thousand softokens, Hyena improves accuracy by more than 50 points over operators relying on state spaces and other implicit and explicit methods, matching attention-based models.”
+This is why it is important anything that can reduce the computational costs is going to be important to making LLMs a profitable product offering. “we propose Hyena, a sub-quadratic drop-in replacement for attention constructed by interleaving implicitly parametrized long convolutions and data-controlled gating. In recall and reasoning tasks on sequences of thousands to hundreds of thousand softokens, Hyena improves accuracy by more than 50 points over operators relying on state spaces and other implicit and explicit methods, matching attention-based models.”
 
-https://arxiv.org/abs/2302.10866
+https //arxiv.org/abs/2302.10866
 
-Leveraging Large Language Models for NLG Evaluation: A Survey
+Leveraging Large Language Models for NLG Evaluation A Survey
 
 “This survey aims to provide a thorough overview of leveraging LLMs for NLG evaluation, a burgeoning area that lacks a systematic analysis. We propose a coherent taxonomy for organizing existing LLM-based evaluation metrics, offering a structured framework to understand and compare these methods. Our detailed exploration includes critically assessing various LLM-based methodologies, as well as comparing their strengths and limitations in evaluating NLG outputs.
 
-https://arxiv.org/html/2401.07103v1
+https //arxiv.org/html/2401.07103v1
 
 RAG
 
@@ -553,11 +553,11 @@ Amazon Bedrock now supports Anthropic Claude 3.0
 “Its industry-leading 100,000 token context window can securely process extensive amounts of information across all industries, from manufacturing and aerospace to agriculture and
 consumer goods, as well as technical, domain-specific documents for industries such as finance, legal, and healthcare.” 
 
-Amazon and Anthropic announce strategic collaboration to advance generative AI: https://www.aboutamazon.com/news/company-news/amazon-aws-anthropic-ai
+Amazon and Anthropic announce strategic collaboration to advance generative AI https //www.aboutamazon.com/news/company-news/amazon-aws-anthropic-ai
 
 Unfortunately, this no longer true. Google announced Gemini support for 1M tokens
 
-Our next-generation model: Gemini 1.5 “https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
+Our next-generation model Gemini 1.5 “https //blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
 
 “As we roll out the full 1 million token context window, we’re actively working on optimizations to improve latency, reduce computational requirements and enhance the user experience. We’re excited for people to try this breakthrough capability, and we share more details on future availability below.” It remains to be seen if they have the ability to use them to their advantage.
 
@@ -568,9 +568,9 @@ Regenerative Augmented Generation, a.k.a., RAG, is a new method to improve respo
 “We explore a general-purpose fine-tuning recipe for retrieval-augmented generation(RAG) — models which combine pre-trained parametric and non-parametric memory for language
 generation.”
 
-Retrieval-AugmentedGenerationfor Knowledge-IntensiveNLPTasks.pdf: https://arxiv.org/abs/2005.11401
+Retrieval-AugmentedGenerationfor Knowledge-IntensiveNLPTasks.pdf https //arxiv.org/abs/2005.11401
 
-Tech Crunch press release: Anthropic releases Claude 2, its second-gen AI chatbot: https://techcrunch.com/2023/07/11/anthropic-releases-claude-2-the-second-generation-of-its-ai-chatbot/
+Tech Crunch press release Anthropic releases Claude 2, its second-gen AI chatbot https //techcrunch.com/2023/07/11/anthropic-releases-claude-2-the-second-generation-of-its-ai-chatbot/
 
 How Chunk Sizes Affect Semantic Retrieval Results
 
@@ -580,7 +580,7 @@ representations.
 In semantic retrieval systems, each chunk of text is typically converted into a dense vector representation using techniques like word embeddings or transformer-based models. These
 vector representations capture the semantic meaning of the text in a high-dimensional space.”
 
-https://ai.plainenglish.io/investigating-chunk-size-on-semantic-results-b465867d8ca1
+https //ai.plainenglish.io/investigating-chunk-size-on-semantic-results-b465867d8ca1
 
 SELF RAG, the next step for prompt enhancement
 
@@ -590,7 +590,7 @@ quality respectively.4SELF-RAG uses reflection tokens to decide the need for ret
 during the inferencephase, enabling it to tailor its behaviour to diverse task requirements.The study shows that SELF-RAG significantly outperforms LLMs and alsostandard RAG
 approaches.”
 
-https://arxiv.org/abs/2310.11511
+https//arxiv.org/abs/2310.11511
 
 Using Vector databases with RAG
 
@@ -599,14 +599,14 @@ RAG
 This is an excellent high level discussion around vector, relational and graph databases. The RDBMS vendors are already adding support for vectors to their offerings. Vector
 databases can be purpose built or support for vector clusters can be added to existing search engines or relational or graph databases.
 
-What Is A Vector Database? | IBM: https://www.ibm.com/topics/vector-database#:~:text=Unlike%20traditional%20relational%20databases%20with,ideal%20for%20AI%2Ddriven%20applications.
+What Is A Vector Database? | IBM: https //www.ibm.com/topics/vector-database#~text=Unlike%20traditional%20relational%20databases%20with,ideal%20for%20AI%2Ddriven%20applications.
 
 Pinecone Vector database
 
 https://venturebeat.com/ai/pinecone-new-vector-database-architecture-a-breakthrough-to-curb-ai-hallucinations/?utm_source=VentureBeat&utm_campaign=41eb1ea501-EMAIL_CAMPAIGN_2024_01_17_07_03&utm_medium=email&utm_term=0_-41eb1ea501-%5BLIST_EMAIL_ID%5D&mc_cid=41eb1ea501&mc_eid=545abcaca8)
 
 Amazon elasticsearch
-Working with vector search collections - Amazon OpenSearch Service: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html
+Working with vector search collections - Amazon OpenSearch Service https //docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html
 
 Foundations of Vector Retrieval
 
