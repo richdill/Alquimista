@@ -1,5 +1,5 @@
 ---
-title: Welcome to my site
+Welcome to my site
 
 This page represents almost 10 years of AI and machine learning research, experience and observations, and a few opinions. I started this page about five years ago as an internal resource at Snaplogic to share my learning with others. This version has been sanitized for public consumption. It started off focusing on the transition from CloudOps to MLOps, but quickly expanded into a wide range of topics. It is organized into content sections, research papers, position and white papers, reference links, and reference architectures. I also include some future references and related topics. 
 
@@ -977,4 +977,5 @@ Quantum simulation: Quantum computers may simulate linguistic datasets and socia
 learning approaches.
 
 However, many technical challenges remain in developing quantum machine learning, including noise in qubits, interfacing with classical computers, and algorithm design. Practical
-quantum advantages for training language models may still be years away. But quantum computing is a promising long-term approach for advancing AI.
+quantum advantages for training language models may still be years away. But quantum computing is a promising long-term approach for advancing AI.  
+---
